@@ -22,7 +22,7 @@ const Footer = (props) => {
               </h5>
               <ul className="list__footer-menu">
                 <li>
-                <NavLink
+                  <NavLink
                     to="/"
                     className="color__white medium font__size--12 text__12-1024 opacity__5 hover"
                   >
@@ -30,7 +30,7 @@ const Footer = (props) => {
                   </NavLink>
                 </li>
                 <li>
-                <NavLink
+                  <NavLink
                     to="/about"
                     className="color__white medium font__size--12 text__12-1024 opacity__5 hover"
                   >
@@ -38,7 +38,7 @@ const Footer = (props) => {
                   </NavLink>
                 </li>
                 <li>
-                <NavLink
+                  <NavLink
                     to="/portfolio"
                     className="color__white medium font__size--12 text__12-1024 opacity__5 hover"
                   >
@@ -46,7 +46,7 @@ const Footer = (props) => {
                   </NavLink>
                 </li>
                 <li>
-                <NavLink
+                  <NavLink
                     to="/service"
                     className="color__white medium font__size--12 text__12-1024 opacity__5 hover"
                   >
@@ -69,7 +69,7 @@ const Footer = (props) => {
                   </NavLink>
                 </li>
                 <li>
-                <NavLink
+                  <NavLink
                     to="/blog"
                     className="color__white medium font__size--12 text__12-1024 opacity__5 hover"
                   >
@@ -155,8 +155,13 @@ const Footer = (props) => {
         </div>
       </section>
       <div className="bg__black-2 py-4">
-        <div className="container color__gray-2 text-center font__size--12 text__12-1024 medium">
-          Design and develop by Devoq Design{" "}
+        <div className="container d-flex flex-sm-row flex-column justify-content-between">
+          <div className="color__gray-2 text-center font__size--12 text__12-1024 medium">
+            &#169; 2024 Cube Studio
+          </div>
+          <div className=" color__gray-2 text-center font__size--12 text__12-1024 medium">
+            DESIGN AND DEVELOP BY DEVOQ DESIGN
+          </div>
         </div>
       </div>
     </Fragment>
