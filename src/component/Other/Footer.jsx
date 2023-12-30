@@ -119,17 +119,17 @@ const Footer = (props) => {
               <ul className="list__sosmed">
                 <li>
                   <a href="#!">
-                    <img src="./../images/sos (1).png" alt="" />
+                    <img src="./../images/new/sos (1).png" alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#!">
-                    <img src="./../images/sos (2).png" alt="" />
+                    <img src="./../images/new/sos (2).png" alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#!">
-                    <img src="./../images/sos (3).png" alt="" />
+                    <img src="./../images/new/sos (3).png" alt="" />
                   </a>
                 </li>
               </ul>
@@ -141,12 +141,12 @@ const Footer = (props) => {
               <ul className="list__footer-menu">
                 <li>
                   <a href="#!">
-                    <img src="./../images/Google Play.png" alt="" />
+                    <img src="./../images/new/Google Play.png" alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#!">
-                    <img src="./../images/App Store.png" alt="" />
+                    <img src="./../images/new/App Store.png" alt="" />
                   </a>
                 </li>
               </ul>
@@ -157,10 +157,10 @@ const Footer = (props) => {
       <div className="bg__black-2 py-4">
         <div className="container d-flex flex-sm-row flex-column justify-content-between">
           <div className="color__gray-2 text-center font__size--12 text__12-1024 medium">
-            &#169; 2024 Cube Studio
+            &#169; 2023 Cube Studio
           </div>
-          <div className=" color__gray-2 text-center font__size--12 text__12-1024 medium">
-            DESIGN AND DEVELOP BY DEVOQ DESIGN
+          <div className="color__gray-2 text-center font__size--12 text__12-1024 medium">
+          <p className="right text-uppercase">Design &amp; Developed by <a className="color__gray-2" href="https://www.devoqdesign.com">Devoq Design</a></p>
           </div>
         </div>
       </div>

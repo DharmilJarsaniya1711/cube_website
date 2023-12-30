@@ -4,42 +4,42 @@ import Slider from "react-slick";
 const SliderReview = (props) => {
   const user = [
     {
-      img: "./../images/Profile Image.png",
+      img: "./../images/new/Profile Image.png",
       name: "Esther Howard",
       job: "Content Creator",
     },
     {
-      img: "./../images/Profile Image (1).png",
+      img: "./../images/new/Profile Image (1).png",
       name: "Guy Hawkins",
       job: "Teachers",
     },
     {
-      img: "./../images/Profile Image (2).png",
+      img: "./../images/new/Profile Image (2).png",
       name: "Robert Fox",
       job: "Influencer",
     },
     {
-      img: "./../images/Profile Image (3).png",
+      img: "./../images/new/Profile Image (3).png",
       name: "Lorem Pak",
       job: "Influencer",
     },
     {
-      img: "./../images/Profile Image.png",
+      img: "./../images/new/Profile Image.png",
       name: "Esther Howard",
       job: "Content Creator",
     },
     {
-      img: "./../images/Profile Image (1).png",
+      img: "./../images/new/Profile Image (1).png",
       name: "Guy Hawkins",
       job: "Teachers",
     },
     {
-      img: "./../images/Profile Image (2).png",
+      img: "./../images/new/Profile Image (2).png",
       name: "Robert Fox",
       job: "Influencer",
     },
     {
-      img: "./../images/Profile Image (3).png",
+      img: "./../images/new/Profile Image (3).png",
       name: "Lorem Pak",
       job: "Influencer",
     },
@@ -98,7 +98,7 @@ const SliderReview = (props) => {
             {user.map((obj) => {
               return (
                 <div className="items">
-                  <div className="wrapper__card-review-side">
+                  <div className="wrapper__card-review-side gap-2">
                     <img src={obj.img} className="profile" alt="" />
                     <div className="about ml-3">
                       <h5 className="mb-0 normal font__size--16 text__16-1024 yeseva">
@@ -131,27 +131,27 @@ const SliderReview = (props) => {
                       </h5>
                       <div className="d-flex align-items-center my-3">
                         <img
-                          src="./../images/Icon - Star.png"
+                          src="./../images/new/Icon - Star.png"
                           className="mr-2"
                           alt=""
                         />
                         <img
-                          src="./../images/Icon - Star.png"
+                          src="./../images/new/Icon - Star.png"
                           className="mr-2"
                           alt=""
                         />
                         <img
-                          src="./../images/Icon - Star.png"
+                          src="./../images/new/Icon - Star.png"
                           className="mr-2"
                           alt=""
                         />
                         <img
-                          src="./../images/Icon - Star.png"
+                          src="./../images/new/Icon - Star.png"
                           className="mr-2"
                           alt=""
                         />
                         <img
-                          src="./../images/Icon - Star.png"
+                          src="./../images/new/Icon - Star.png"
                           className="mr-2"
                           alt=""
                         />

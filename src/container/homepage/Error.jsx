@@ -17,7 +17,7 @@ const Error = (props) => {
             <section className="height__100">
               <div className="container">
                 <div className="text-center">
-                  <h2 className="font__size--64 text__65-1024 text__65-sm text__65-xxs yeseva">
+                  <h2 className="font__size--64 text__65-1024 text__65-sm text__65-xxs yeseva fw-normal">
                     404 <br />
                     Page Not Found
                   </h2>

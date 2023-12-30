@@ -17,7 +17,7 @@ const Portofolio = (props) => {
             <section>
               <div className="container">
                 <div className="text-center">
-                  <h2 className="font__size--64 text__65-1024 text__65-sm text__65-xxs yeseva">Portofolio</h2>
+                  <h2 className="font__size--64 text__65-1024 text__65-sm text__65-xxs yeseva fw-normal">Portofolio</h2>
                   <p className="medium font__size--14 text__14-1024 lh-2 color__gray-1">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
                     amet vitae vel id id porttitor ut in. <br className="d-none d-md-block" /> Integer pretium
@@ -33,7 +33,7 @@ const Portofolio = (props) => {
           <div className="container">
             <div className="text-center mb-5">
               <h4 className="normal font__size--40 text__40-1024 text__40-md text__40-mm yeseva mb-3">
-                Recent Project
+                Home Living
               </h4>
               <p className="medium font__size--14 text__14-1024 lh-2 color__gray-1 mb-0">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. A amet

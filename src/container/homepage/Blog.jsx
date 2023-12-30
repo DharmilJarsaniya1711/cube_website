@@ -28,7 +28,7 @@ const Blog = (props) => {
             <section>
               <div className="container">
                 <div className="text-center">
-                  <h2 className="font__size--64 text__65-1024 text__65-sm text__65-xxs yeseva">
+                  <h2 className="font__size--64 text__65-1024 text__65-sm text__65-xxs yeseva fw-normal">
                     Blog
                   </h2>
                   <p className="medium font__size--14 text__14-1024 lh-2 color__gray-1">

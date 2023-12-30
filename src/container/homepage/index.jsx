@@ -75,7 +75,7 @@ const Index = (props) => {
                   </div>
                   <div className="col-lg-6 my-auto">
                     <h4 className="normal font__size--40 text__40-1024 text__40-md text__40-mm yeseva mb-3">
-                      About InterQ
+                      About Cube Studio
                     </h4>
                     <p className="medium font__size--14 text__14-1024 lh-2 color__gray-1">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
@@ -110,7 +110,7 @@ const Index = (props) => {
                     <div className="col-md-4 mb-4 mb-md-0">
                       <div className="wrapper__service-grid">
                         <div className="icon mb-4 mx-auto">
-                          <img src="./../images/Graph.png" alt="" />
+                          <img src="./../images/new/Graph.png" alt="" />
                         </div>
 
                         <h5 className="normal font__size--24 text__24-1024 text__24-sm text__24-xs yeseva">
@@ -127,7 +127,7 @@ const Index = (props) => {
                     <div className="col-md-4 mb-4 mb-md-0">
                       <div className="wrapper__service-grid">
                         <div className="icon mb-4 mx-auto">
-                          <img src="./../images/Home.png" alt="" />
+                          <img src="./../images/new/Home.png" alt="" />
                         </div>
 
                         <h5 className="normal font__size--24 text__24-1024 text__24-sm text__24-xs yeseva">
@@ -144,7 +144,7 @@ const Index = (props) => {
                     <div className="col-md-4 mb-md-0">
                       <div className="wrapper__service-grid">
                         <div className="icon mb-4 mx-auto">
-                          <img src="./../images/Work.png" alt="" />
+                          <img src="./../images/new/Work.png" alt="" />
                         </div>
 
                         <h5 className="normal font__size--24 text__24-1024 text__24-sm text__24-xs yeseva">

@@ -3238,6 +3238,7 @@ h5 {
 .wrapper__card-review-side {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .wrapper__card-review-side .profile {
   width: 54px;

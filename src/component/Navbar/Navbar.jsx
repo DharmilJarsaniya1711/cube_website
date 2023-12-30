@@ -88,6 +88,17 @@ const Navbar = (props) => {
               </li>
 
               <li className="nav-item">
+                <NavLink
+                  to="/blog"
+                  class={
+                    "nav-link medium font__size--14 text__14-1024 " +
+                    (props.type === "white" ? "color__white" : "")
+                  }
+                >
+                  Blog
+                </NavLink>
+              </li>
+              {/* <li className="nav-item">
                 <div className="dropdown wrapper__dropdown-menu">
                   <div
                     class={
@@ -106,20 +117,7 @@ const Navbar = (props) => {
                         (props.type === "white" ? "color__white" : "")
                       }
                     >
-                      Pages
-                      <svg
-                        className="ml-2"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 16 16"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M2.97976 5.31307C3.15727 5.13556 3.43505 5.11942 3.63079 5.26466L3.68687 5.31307L7.99998 9.62596L12.3131 5.31307C12.4906 5.13556 12.7684 5.11942 12.9641 5.26466L13.0202 5.31307C13.1977 5.49058 13.2138 5.76836 13.0686 5.9641L13.0202 6.02018L8.35353 10.6868C8.17602 10.8644 7.89825 10.8805 7.70251 10.7353L7.64643 10.6868L2.97976 6.02018C2.7845 5.82492 2.7845 5.50833 2.97976 5.31307Z"
-                          fill={props.type === "white" ? "white" : "#38343D"}
-                        />
-                      </svg>
+                      Blog
                     </div>
                   </div>
                   <div
@@ -153,7 +151,7 @@ const Navbar = (props) => {
                     </NavLink>
                   </div>
                 </div>
-              </li>
+              </li> */}
               <li className="nav-item d-lg-none">
                 <NavLink
                   to="/contact"

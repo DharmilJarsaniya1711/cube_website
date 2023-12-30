@@ -184,13 +184,13 @@ const BlogDetail = (props) => {
             </h5>
             <div className="wrapper__sosmed-blog">
               <a href="#!">
-                <img src="./../images/sos (1).png" alt="" />
+                <img src="./../images/new/sos (1).png" alt="" />
               </a>
               <a href="#!">
-                <img src="./../images/sos (2).png" alt="" />
+                <img src="./../images/new/sos (2).png" alt="" />
               </a>
               <a href="#!">
-                <img src="./../images/sos (3).png" alt="" />
+                <img src="./../images/new/sos (3).png" alt="" />
               </a>
             </div>
           </div>

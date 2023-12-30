@@ -17,7 +17,7 @@ const Service = (props) => {
             <section>
               <div className="container">
                 <div className="text-center">
-                  <h2 className="font__size--64 text__65-1024 text__65-sm text__65-xxs yeseva">
+                  <h2 className="font__size--64 text__65-1024 text__65-sm text__65-xxs yeseva fw-normal">
                     Service
                   </h2>
                   <p className="medium font__size--14 font__14-1024 lh-2 color__gray-1">
@@ -45,7 +45,7 @@ const Service = (props) => {
                     <div className="col-md-4 mb-4 mb-md-0">
                       <div className="wrapper__service-grid">
                         <div className="icon mb-4 mx-auto">
-                          <img src="./../images/Graph.png" alt="" />
+                          <img src="./../images/new/Graph.png" alt="" />
                         </div>
 
                         <h5 className="normal font__size--24 text__24-1024 yeseva">
@@ -62,7 +62,7 @@ const Service = (props) => {
                     <div className="col-md-4 mb-4 mb-md-0">
                       <div className="wrapper__service-grid">
                         <div className="icon mb-4 mx-auto">
-                          <img src="./../images/Home.png" alt="" />
+                          <img src="./../images/new/Home.png" alt="" />
                         </div>
 
                         <h5 className="normal font__size--24 text__24-1024 yeseva">
@@ -79,7 +79,7 @@ const Service = (props) => {
                     <div className="col-md-4">
                       <div className="wrapper__service-grid">
                         <div className="icon mb-4 mx-auto">
-                          <img src="./../images/Work.png" alt="" />
+                          <img src="./../images/new/Work.png" alt="" />
                         </div>
 
                         <h5 className="normal font__size--24 text__24-1024 yeseva">
@@ -113,7 +113,7 @@ const Service = (props) => {
                 <div className="row mb__5">
                   <div className="col-md-6 mb-4 my-md-auto text-center">
                     <img
-                      src="./../images/new/qw (2).png"
+                      src="./../images/new/qw (1).png"
                       className="images__how"
                       alt=""
                     />
@@ -122,10 +122,10 @@ const Service = (props) => {
                     <div className="wrapper__number normal font__size--24 text__24-1024 yeseva color__white left">
                       <div className="circle">1</div>
                     </div>
-                    <div className="normal font__size--12 text__12-1024 yeseva mb-0 color__gray-2">
+                    <div className="normal font__size--12 text__12-1024 yeseva mb-0 color__gray-2 mx-2">
                       STEP 1
                     </div>
-                    <h1 className="normal font__size--24 text__24-1024 yeseva">
+                    <h1 className="normal font__size--24 text__24-1024 yeseva mx-2">
                       Select one of our talented designers.
                     </h1>
                     <p className="medium font__size--14 font__14-1024 lh-2 color__gray-1">
@@ -154,7 +154,7 @@ const Service = (props) => {
                   </div>
                   <div className="col-md-6 order-1 order-md-2 mb-4 my-md-auto text-center">
                     <img
-                      src="./../images/new/qw (1).png"
+                      src="./../images/new/qw (2).png"
                       className="images__how"
                       alt=""
                     />
@@ -172,10 +172,10 @@ const Service = (props) => {
                     <div className="wrapper__number normal font__size--24 text__24-1024 yeseva color__white left">
                       <div className="circle">3</div>
                     </div>
-                    <div className="normal font__size--12 text__12-1024 yeseva mb-0 color__gray-2">
+                    <div className="normal font__size--12 text__12-1024 yeseva mb-0 color__gray-2 mx-2">
                       STEP 3
                     </div>
-                    <h1 className="normal font__size--24 text__24-1024 yeseva">
+                    <h1 className="normal font__size--24 text__24-1024 yeseva mx-2">
                       Your designer will blow your mind.
                     </h1>
                     <p className="medium font__size--14 font__14-1024 lh-2 color__gray-1">
@@ -204,7 +204,7 @@ const Service = (props) => {
                   </div>
                   <div className="col-md-6 order-1 order-md-2 mb-4 my-md-auto text-center">
                     <img
-                      src="./../images/new/qw (5).png"
+                      src="./../images/new/qw (4).png"
                       className="images__how"
                       alt=""
                     />
@@ -213,7 +213,7 @@ const Service = (props) => {
                 <div className="row">
                   <div className="col-md-6 mb-4 my-md-auto text-center">
                     <img
-                      src="./../images/new/qw (4).png"
+                      src="./../images/new/qw (5).png"
                       className="images__how"
                       alt=""
                     />
@@ -222,10 +222,10 @@ const Service = (props) => {
                     <div className="wrapper__number none normal font__size--24 text__24-1024 yeseva color__white left">
                       <div className="circle">5</div>
                     </div>
-                    <div className="normal font__size--12 text__12-1024 yeseva mb-0 color__gray-2">
+                    <div className="normal font__size--12 text__12-1024 yeseva mb-0 color__gray-2 mx-2">
                       STEP 5
                     </div>
-                    <h1 className="normal font__size--24 text__24-1024 yeseva">
+                    <h1 className="normal font__size--24 text__24-1024 yeseva mx-2">
                       Shop items from your design in one place.
                     </h1>
                     <p className="medium font__size--14 font__14-1024 lh-2 color__gray-1">
