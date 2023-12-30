@@ -66,13 +66,13 @@ const Navbar = (props) => {
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="/portofolio"
+                  to="/portfolio"
                   class={
                     "nav-link medium font__size--14 text__14-1024 " +
                     (props.type === "white" ? "color__white" : "")
                   }
                 >
-                  Portofolio
+                  Portfolio
                 </NavLink>
               </li>
               <li className="nav-item">

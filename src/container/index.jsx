@@ -26,7 +26,7 @@ const Index = (props) => {
           <Route exact path="/about">
             <About />
           </Route>
-          <Route exact path="/portofolio">
+          <Route exact path="/portfolio">
             <Portofolio />
           </Route>
           <Route exact path="/service">

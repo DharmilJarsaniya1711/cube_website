@@ -55,45 +55,6 @@ const Footer = (props) => {
                 </li>
               </ul>
             </div>
-            <div className="mb-4 mb-lg-0 col-6 col-md">
-              <h5 className="medium font__size--12 text__12-1024 color__white mb-3">
-                Quicklink 2
-              </h5>
-              <ul className="list__footer-menu">
-                <li>
-                  <NavLink
-                    to="/price"
-                    className="color__white medium font__size--12 text__12-1024 opacity__5 hover"
-                  >
-                    Pricing
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/blog"
-                    className="color__white medium font__size--12 text__12-1024 opacity__5 hover"
-                  >
-                    Blog
-                  </NavLink>
-                </li>
-                <li>
-                  <a
-                    href="#!"
-                    className="color__white medium font__size--12 text__12-1024 opacity__5 hover"
-                  >
-                    Single Blog
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#!"
-                    className="color__white medium font__size--12 text__12-1024 opacity__5 hover"
-                  >
-                    404 Error
-                  </a>
-                </li>
-              </ul>
-            </div>
             <div className="mb-4 mb-lg-0 col-12 col-md-6 col-lg-3">
               <div className="mb-4">
                 <h5 className="medium font__size--12 text__12-1024 color__white mb-3">

@@ -46,15 +46,21 @@ const Contact = (props) => {
                     <img src="./../images/new/Message.svg" alt="" />
                   </div>
                   <h5 className="mb-0 font__size--20 text__20-1024 yeseva normal ml-3">
-                    your.email.inbox@here.com
+                    <a
+                      href="mailto:sales@devoqdesign.com"
+                      className=" text-dark"
+                    >
+                      sales@devoqdesign.com
+                    </a>
                   </h5>
                 </div>
                 <div className="wrapper__info-contact text-center text-md-left d-md-flex align-items-center my-4 gap-2">
                   <div className="icon flex-shrink-0">
                     <img src="./../images/new/Location.svg" alt="" />
                   </div>
-                  <h5 className="mb-0 font__size--20 text__20-1024 yeseva normal ml-3">
-                    4517 Washington Ave. Manchester, Kentucky 39495
+                  <h5 className="mb-0 font__size--20 text__20-1024 yeseva normal ml-3 text-start">
+                    111, Platinum Plaza Opp. I.O.C. petrol pump, Bodakdev,
+                    Ahmedabad - 380054{" "}
                   </h5>
                 </div>
                 <div className="wrapper__info-contact text-center text-md-left d-md-flex align-items-center gap-2">
@@ -62,7 +68,10 @@ const Contact = (props) => {
                     <img src="./../images/new/Calling.svg" alt="" />
                   </div>
                   <h5 className="mb-0 font__size--20 text__20-1024 yeseva normal ml-3">
-                    +62 424 954 824
+                    <a href="tel:+919898362004" className="text-dark">
+                      {" "}
+                      +919898362004{" "}
+                    </a>
                   </h5>
                 </div>
               </div>

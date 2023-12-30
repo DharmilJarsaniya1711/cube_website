@@ -17,7 +17,7 @@ const Portofolio = (props) => {
             <section>
               <div className="container">
                 <div className="text-center">
-                  <h2 className="font__size--64 text__65-1024 text__65-sm text__65-xxs yeseva fw-normal">Portofolio</h2>
+                  <h2 className="font__size--64 text__65-1024 text__65-sm text__65-xxs yeseva fw-normal">Portfolio</h2>
                   <p className="medium font__size--14 text__14-1024 lh-2 color__gray-1">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
                     amet vitae vel id id porttitor ut in. <br className="d-none d-md-block" /> Integer pretium
